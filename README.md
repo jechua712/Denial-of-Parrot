@@ -64,6 +64,6 @@ Aparecerá un menú interactivo donde podrás seleccionar el tipo de ataque DoS 
 ---
 
 
-## 🛡️ Aviso Legal
+## Aviso Legal
 
 Este software se proporciona únicamente con fines **educativos**. El autor no se hace responsable del uso indebido del script. Asegúrate de tener permiso explícito antes de realizar pruebas de red o seguridad en cualquier sistema que no te pertenezca.
