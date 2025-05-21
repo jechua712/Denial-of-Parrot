@@ -45,7 +45,7 @@ EOF
 
   read -p "Selecciona una opción (1-7): " opcion
 
-  # Validar la entrada
+  
   if [[ "$opcion" =~ ^[1-7]$ ]]; then
     if [ "$opcion" -eq 7 ]; then
       echo "Saliendo del programa..."
