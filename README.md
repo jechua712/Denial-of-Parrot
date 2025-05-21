@@ -25,5 +25,18 @@
 
 
 
-## 🎮 Captura de pantalla
+## Captura de pantalla
+
+## Instalación
+Clona el repositorio y da permisos de ejecución al script:
+
+git clone https://github.com/jechua712/Denial-of-Parrot.git
+cd Denial-of-Parrot
+chmod +x DoP.sh
+
+## Uso 
+Ejecuta el script como root:
+sudo ./DoP.sh
+
+
 
