@@ -1,15 +1,13 @@
 # 🦜 Denial of Parrot
 
-**Denial of Parrot** es un script interactivo en Bash que automatiza la ejecución de técnicas de Denial of Service (DoS) utilizando la herramienta de red **hping3**. Está diseñado con fines educativos y de pruebas de seguridad en entornos controlados.
+**Denial of Parrot** es un script escrito en Bash que automatiza distintas técnicas de Denial of Service (DoS) utilizando la herramienta de red hping3. Está diseñado con fines educativos y de pruebas en entornos controlados, como laboratorios de ciberseguridad ofensiva.
 
-> ⚠️ **Este script debe ser utilizado únicamente con fines educativos y en sistemas de prueba bajo tu control.** El uso indebido puede ser ilegal y está en contra de las políticas de muchas redes y proveedores.
+> ⚠️ **El uso indebido puede ser ilegal y está en contra de las políticas de muchas redes y proveedores.** 
 
 ---
 
 ## 📌 Características
 
-* Menú interactivo en consola con arte ASCII.
-* Detección de privilegios de root.
 * Verificación e instalación automática de `hping3`.
 * Ejecución de 6 tipos de técnicas DoS:
 
@@ -54,7 +52,7 @@ sudo ./DoP.sh
 
 Aparecerá un menú interactivo donde podrás seleccionar el tipo de ataque DoS que deseas simular y configurar los parámetros necesarios (IP objetivo, puerto, tamaño de paquete, etc.).
 
-> ℹ️ Pulsa `CTRL+C` en cualquier momento para detener el ataque.
+> Pulsa `CTRL+C` en cualquier momento para detener el ataque.
 
 ---
 
@@ -65,12 +63,6 @@ Aparecerá un menú interactivo donde podrás seleccionar el tipo de ataque DoS 
 
 ---
 
-## 👨‍💻 Autor
-
-**Jechua712**
-[GitHub Profile](https://github.com/jechua712)
-
----
 
 ## 🛡️ Aviso Legal
 
