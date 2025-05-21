@@ -1,42 +1,77 @@
-# Denial-of-Parrot
 # 🦜 Denial of Parrot
 
-**Denial of Parrot** es un script escrito en **Bash** que automatiza distintas técnicas de **Denial of Service (DoS)** utilizando la herramienta de red `hping3`. Está diseñado con fines educativos y de pruebas en entornos controlados, como laboratorios de ciberseguridad ofensiva.
+**Denial of Parrot** es un script interactivo en Bash que automatiza la ejecución de técnicas de Denial of Service (DoS) utilizando la herramienta de red **hping3**. Está diseñado con fines educativos y de pruebas de seguridad en entornos controlados.
 
-> ⚠️ **Advertencia:** Este proyecto está destinado exclusivamente a usos académicos, de investigación y de auditoría en entornos controlados. El uso indebido fuera de estos contextos puede ser ilegal y está estrictamente prohibido.
+> ⚠️ **Este script debe ser utilizado únicamente con fines educativos y en sistemas de prueba bajo tu control.** El uso indebido puede ser ilegal y está en contra de las políticas de muchas redes y proveedores.
 
 ---
 
 ## 📌 Características
 
-- Verificación automática de ejecución como **root**.
-- Instalación automática de `hping3` si no está disponible.
-- Soporte para múltiples ataques DoS:
+* Menú interactivo en consola con arte ASCII.
+* Detección de privilegios de root.
+* Verificación e instalación automática de `hping3`.
+* Ejecución de 6 tipos de técnicas DoS:
 
-  1.-SYN Flood  
-  2.-ACK Flood  
-  3.-FIN Flood  
-  4.-UDP Flood  
-  5.-ICMP Flood  
-  6.-Ping de la Muerte (configurable en tamaño de bytes)
+  * SYN Flood
+  * ACK Flood
+  * FIN Flood
+  * UDP Flood
+  * ICMP Flood
+  * Ping de la Muerte (PoD)
 
-- Instrucciones claras al usuario durante la ejecución.
-- Compatible con sistemas basados en **Debian/Ubuntu**.
+---
 
+## 🔧 Instalación
 
+1. Clona el repositorio:
 
-## Captura de pantalla
-
-## Instalación
-Clona el repositorio y da permisos de ejecución al script:
-
+```bash
 git clone https://github.com/jechua712/Denial-of-Parrot.git
+```
+
+2. Accede al directorio del proyecto:
+
+```bash
 cd Denial-of-Parrot
+```
+
+3. Da permisos de ejecución al script:
+
+```bash
 chmod +x DoP.sh
+```
 
-## Uso 
-Ejecuta el script como root:
+---
+
+## 🚀 Uso
+
+Ejecuta el script con privilegios de **root**:
+
+```bash
 sudo ./DoP.sh
+```
 
+Aparecerá un menú interactivo donde podrás seleccionar el tipo de ataque DoS que deseas simular y configurar los parámetros necesarios (IP objetivo, puerto, tamaño de paquete, etc.).
 
+> ℹ️ Pulsa `CTRL+C` en cualquier momento para detener el ataque.
 
+---
+
+## 📚 Requisitos
+
+* Sistema basado en Linux (probado en Debian/Ubuntu).
+* `hping3` (se instalará automáticamente si no está presente).
+
+---
+
+## 👨‍💻 Autor
+
+**Jechua712**
+[GitHub Profile](https://github.com/jechua712)
+
+---
+
+## 🛡️ Aviso Legal
+
+Este software se proporciona únicamente con fines **educativos**. El autor no se hace responsable del uso indebido del script. Asegúrate de tener permiso explícito antes de realizar pruebas de red o seguridad en cualquier sistema que no te pertenezca.
