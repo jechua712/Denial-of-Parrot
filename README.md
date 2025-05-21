@@ -19,7 +19,7 @@
   * Ping de la Muerte (PoD)
 ---
 ## Captura
-holi
+![Programa en Emulador de Terminal](images/1.jpg)
 
 
 
