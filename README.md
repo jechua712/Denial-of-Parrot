@@ -17,8 +17,6 @@
   * UDP Flood
   * ICMP Flood
   * Ping de la Muerte (PoD)
-
----
 ---
 ## Captura
 holi
